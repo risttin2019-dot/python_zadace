@@ -4,4 +4,5 @@
 
 ## Lista domaćih zadataka:
 
-    - Domaći 7.1 (02.11.2026).
+    - Domaći 7.1 (02.11.2026);
+    - Domaći 7.1 (03.11.2026).
