@@ -1,12 +1,12 @@
 # 1. zadatak
 
 def get_even_positions(data):
-    even_index = []
+    even_num_index = []
 
     for i in range(0, len(data), 2):
-        even_index.append(data[i])
+        even_num_index.append(data[i])
 
-    return tuple(even_index)
+    return tuple(even_num_index)
 
 tuple1 = (10, 20, 30, 40, 50, 60)
 print(get_even_positions(tuple1))
@@ -15,13 +15,14 @@ print(get_even_positions(tuple1))
 # 2. zadatak
 
 def find_exclusive_students(group1, group2):
-    return set(group1) - set(group2)
+    return group1 - group2
 
 set1 = {'Ana', 'Marko', 'Jovan', 'Milica'}
 set2 = {'Marko', 'Milica' ,'Petar'}
 
 print(find_exclusive_students(set1, set2))
 
+#
 
 # 3. zadatak
 
