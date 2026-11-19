@@ -8,12 +8,14 @@ class BankAccount:
     def deposit(self, amount):
         if amount > 0:
             self.balance += amount
-            return self
+
+        return self
         
     def withdraw(self, amount):
         if amount > 0 and self.balance >= amount:
             self.balance -= amount
-            return self
+        
+        return self
         
     def display_balance(self):
         return self.balance
